@@ -1,0 +1,27 @@
+//les bibliotheque
+#include <stdio.h>
+#include <stdlib.h>
+//les bibliotheque
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
+#include <conio.h>
+#include<math.h>
+#define N 5
+
+//les prototypes des fonctions
+int generer_un_nombre_aleatoire(int inf,int sup);
+int menu_operande1(int *l,int choix_operande1);
+int menu_operande2(int *l,int choix_operande2);
+int fonction_resultat(int operande1,int operande2,int choix_operation);
+void print(int *l);
+void afficher_instruction();
+void attendez(int d);
+void regles_chiffre();
+int generer_le_nombre(int *l);
+int _min(int a ,int b);
+int _max(int a,int b);
+int jeu_chiffre();
+int char_to_int_(char c);
+int verifier_saisie_(char d);
